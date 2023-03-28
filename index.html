@@ -17,9 +17,13 @@
     <!-- header -->
     <header class="header">
       <div class="banner">
-        <h3 class="banner-subtitle">Welcome to the family.</h3>
+        <h3 class="banner-subtitle2">Welcome to the family</h3>
         <h1 class="banner-title">Aston Martin Formula One Team</h1>
-        <a href="skills.html" class="banner-btn">explore</a>
+        <a
+          href="https://es.wikipedia.org/wiki/Aston_Martin_en_F%C3%B3rmula_1"
+          class="banner-btn"
+          >explore</a
+        >
       </div>
     </header>
     <!-- end header -->
@@ -34,7 +38,7 @@
           <i class="fas fa-car"></i>
         </span>
         <h3 class="skill-title">A car</h3>
-        <p class="skill-text">95% new, 2022 is now obsolete</p>
+        <p class="skill-text">95% new, 2022 is now completely obsolete</p>
       </article>
       <!--end single skill -->
       <!-- single skill -->
@@ -70,6 +74,37 @@
       <!--end single skill -->
     </section>
     <!-- end of skills section -->
+    <!--news section-->
+    <section class="about" style="display: flex; flex-direction: row-reverse">
+      <div class="section-center clearfix">
+        <!-- first column -->
+        <article class="about-info" style="order: 2">
+          <!-- section title -->
+          <div>
+            <h3 class="section-subtitle">NEXT RACE:</h3>
+            <h2 class="section-title">Melbourne, Australia</h2>
+          </div>
+          <!--end section title -->
+          <p class="about-text">7:00AM CEST, don't miss it.</p>
+          <a href="https://www.grandprix.com.au/" class="main-btn">
+            buy tickets</a
+          >
+        </article>
+        <!-- second column -->
+        <article class="about-img" style="order: 1">
+          <div class="about-picture-container">
+            <img
+              src="./images/track.jpg"
+              alt="tea kettle"
+              class="about-picture"
+            />
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--end of news section-->
+
     <!-- about  -->
     <section class="about">
       <div class="section-center clearfix">
@@ -84,19 +119,70 @@
           </div>
         </article>
         <!-- second column -->
-        <article class="about-info">
+        <article
+          class="about-info"
+          style="
+            text-align: right;
+
+            flex-direction: column;
+            justify-content: center;
+          "
+        >
           <!-- section title -->
           <div>
             <h3 class="section-subtitle">MEET OUR</h3>
             <h2 class="section-title">drivers</h2>
           </div>
           <!--end section title -->
-          <p class="about-text">Fernando Alonso, 2-time world champion.</p>
-          <p class="about-text">Lance Stroll, promising rookie driver.</p>
-          <a href="about.html" class="main-btn">learn more</a>
+          <p style="text-align: right">
+            Fernando Alonso, 2-time world champion.
+          </p>
+          <p style="text-align: right">
+            Lance Stroll, promising rookie driver.
+          </p>
+          <a href="https://www.astonmartinf1.com/en-GB/about" class="main-btn"
+            >learn more</a
+          >
         </article>
       </div>
     </section>
+
     <!--  end of about  -->
+
+    <!--car section-->
+    <section class="about" style="display: flex; flex-direction: row-reverse">
+      <div class="section-center clearfix">
+        <!-- first column -->
+        <article class="about-info" style="order: 2">
+          <!-- section title -->
+          <div>
+            <h3 class="section-subtitle">NEW CAR</h3>
+            <h2 class="section-title">NEW ENERGY</h2>
+          </div>
+          <!--end section title -->
+          <p class="about-text">
+            Meet the AMR23, a massive step forwards for the team, a car capable
+            of fighting for the championship.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=qnIWMAJ7TCE"
+            class="main-btn"
+          >
+            car presentation</a
+          >
+        </article>
+        <!-- second column -->
+        <article class="about-img" style="order: 1">
+          <div class="about-picture-container">
+            <img
+              src="./images/car.webp"
+              alt="tea kettle"
+              class="about-picture"
+            />
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--end of car section-->
   </body>
 </html>

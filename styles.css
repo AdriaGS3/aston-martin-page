@@ -8,6 +8,7 @@
 :root {
   --slantedText: "Grand Hotel", cursive;
   --primaryColor: #698f3f;
+  --primaryColor2: #90ee90;
   --secondaryColor: #fca311;
   --mainDark: #3a3e3b;
   --mainWhite: #fff;
@@ -80,6 +81,13 @@ a {
   /* animation */
   animation: fadeOut 3s;
 }
+
+.banner-subtitle2 {
+  font-size: 2rem;
+  color: var(--primaryColor2);
+  /* animation */
+  animation: fadeOut 3s;
+}
 .banner-title {
   text-transform: uppercase;
   font-size: 3.2rem;
@@ -102,6 +110,7 @@ a {
   cursor: pointer;
   margin-top: 2rem;
   transition: var(--mainTransition);
+  max-width: 100%;
 }
 .main-btn:hover,
 .banner-btn:hover {
